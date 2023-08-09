@@ -1,0 +1,8 @@
+/node_modules
+
+git init                                                           
+git add -A                                                         
+git commit -m "commit message"                                     
+git remote add origin https://github.com/niteshkhandelewal/chat-app.git    
+git pull origin main                                             
+git push -u origin main  
