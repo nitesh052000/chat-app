@@ -22,9 +22,9 @@ const app = express();
 
 app.use(express.json()); // to accept Json data
 
-app.get("/", (req, res) => {
-  res.send("Api is runinggg");
-});
+// app.get("/", (req, res) => {
+//   res.send("Api is runinggg");
+// });
 
 app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
